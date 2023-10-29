@@ -1,0 +1,144 @@
+@import "./components/footer.scss";
+@import "./components/header.scss";
+@import "./components/hero.scss";
+
+.container {
+  max-width: 1240px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 830px) {
+  .header__content__nav {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hero__content__img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hero__content__warrior-logo {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hero__title-logo {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .hero__content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hero__title-textline {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hero__title1__info-text {
+    display: flex;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .hero__title1__info-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .hero__title2__header-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .hero__title3__header-logo {
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .hero__title1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hero__title2__info {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hero__title2__header-text {
+    padding-top: 700px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hero__title3__header-logo {
+    padding-bottom: 1000px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hero__title3 {
+    padding-bottom: 1900px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hero__title3__cards {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hero__title3__warrior {
+    padding-top: 700px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hero__title3__warrior1 {
+    padding-top: 750px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .hero__title4 {
+    padding-bottom: 400px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .hero__title4__cards {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
